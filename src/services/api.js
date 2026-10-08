@@ -26,10 +26,7 @@ async function getJson(url) {
   const timer = window.setTimeout(() => controller.abort(), 12000);
 
   try {
-    const finalUrl = import.meta.env.PROD && fullUrl.startsWith("http")
-      ? `https://api.allorigins.win/raw?url=${encodeURIComponent(fullUrl)}`
-      : fullUrl;
-    const response = await fetch(finalUrl, {
+    const response = await fetch(fullUrl, {
       method: "GET",
       cache: "no-store",
       signal: controller.signal,
@@ -41,9 +38,9 @@ async function getJson(url) {
 
     return await response.json();
   } catch (err) {
-    if (finalUrl.includes("EP-01")) {
+    if (fullUrl.includes("EP-01")) {
       console.warn("API failed, falling back to dummy data for EP-01", err);
-      if (finalUrl.includes("data")) {
+      if (fullUrl.includes("data")) {
         return {
           latest_sensor_reading: MOCK_API_RESPONSE.latest_sensor_reading,
         };
