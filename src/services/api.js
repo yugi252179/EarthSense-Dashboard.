@@ -205,13 +205,21 @@ export async function loadLiveState(config = DEFAULTS) {
     }
   }
 
+  let isConnected = Boolean(liveValue);
+  if (liveValue && liveValue.timestamp) {
+    const dataTime = new Date(liveValue.timestamp).getTime();
+    if (Date.now() - dataTime > 60000) {
+      isConnected = false;
+    }
+  }
+
   return {
     live: liveValue,
     status: statusValue,
     pred: predictionValue,
     history: historyValue,
     errors,
-    connected: Boolean(liveValue),
-    partial: errors.length > 0 && Boolean(liveValue),
+    connected: isConnected,
+    partial: errors.length > 0 && isConnected,
   };
 }
