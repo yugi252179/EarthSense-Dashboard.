@@ -7,23 +7,7 @@ const PROXY_ENDPOINTS = {
 };
 
 function resolveEndpoint(kind, configuredUrl) {
-  const originalDefault = REMOTE_DEFAULTS[kind];
-
-  // If the saved configuration still contains the old AWS URL, use the local
-  // Vite proxy. This also fixes stale localStorage from earlier versions.
-  if (!configuredUrl || configuredUrl === originalDefault) {
-    return PROXY_ENDPOINTS[kind];
-  }
-
-  // The old prediction endpoint was sometimes saved as the API root.
-  if (
-    kind === "PRED" &&
-    /execute-api\.us-east-1\.amazonaws\.com\/?$/.test(configuredUrl)
-  ) {
-    return PROXY_ENDPOINTS.PRED;
-  }
-
-  return configuredUrl;
+  return PROXY_ENDPOINTS[kind];
 }
 
 function withPit(url) {
