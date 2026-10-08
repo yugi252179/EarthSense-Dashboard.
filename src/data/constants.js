@@ -8,9 +8,9 @@ export const REMOTE_DEFAULTS = {
 };
 
 export const DEFAULTS = {
-  LIVE: "/api/earthsense-data",
-  STATUS: "/api/earthsense-status",
-  PRED: "/api/earthsense-test",
+  LIVE: import.meta.env.PROD ? REMOTE_DEFAULTS.LIVE : "/api/earthsense-data",
+  STATUS: import.meta.env.PROD ? REMOTE_DEFAULTS.STATUS : "/api/earthsense-status",
+  PRED: import.meta.env.PROD ? REMOTE_DEFAULTS.PRED : "/api/earthsense-test",
   HISTORY: "",
   REFRESH: 10000,
   STEP_DAYS: 1,
