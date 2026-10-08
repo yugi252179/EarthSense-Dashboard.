@@ -7,6 +7,7 @@ const aws = {
 };
 
 export default defineConfig({
+  base: '/EarthSense-Dashboard./',
   plugins: [react()],
   server: {
     proxy: {
