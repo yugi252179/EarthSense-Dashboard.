@@ -44,7 +44,7 @@ export function Login() {
         <div className="brand big">
           <img
             className="brand-logo"
-            src="/earthsense-logo.png"
+            src={`${import.meta.env.BASE_URL}earthsense-logo.png`}
             alt="EarthSense"
           />
         </div>
@@ -131,7 +131,7 @@ export function Sidebar() {
       <div className="brand">
         <img
           className="brand-logo"
-          src="/earthsense-logo.png"
+          src={`${import.meta.env.BASE_URL}earthsense-logo.png`}
           alt="EarthSense"
         />
       </div>
