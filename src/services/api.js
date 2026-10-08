@@ -26,7 +26,10 @@ async function getJson(url) {
   const timer = window.setTimeout(() => controller.abort(), 12000);
 
   try {
-    const response = await fetch(withPit(url), {
+    const finalUrl = import.meta.env.PROD && fullUrl.startsWith("http")
+      ? `https://api.allorigins.win/raw?url=${encodeURIComponent(fullUrl)}`
+      : fullUrl;
+    const response = await fetch(finalUrl, {
       method: "GET",
       cache: "no-store",
       signal: controller.signal,
