@@ -1,0 +1,121 @@
+EarthPitId,TransformerId,CompanyId,CompanyName,Industry,Area,Sector,Earth_Resistance_Ohm,Leakage_Current_mA,Soil_Moisture_Percent,Soil_Temperature_C,Soil_Resistivity_Ohm_m
+EP-01,TR-001,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Main Distribution Yard,North-East Grid,1.22,11.3,24.7,24.1,119
+EP-02,TR-001,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Main Distribution Yard,North-East Grid,1.39,12.6,25.4,25.2,148
+EP-03,TR-001,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Main Distribution Yard,North-East Grid,1.21,13.9,26.1,26.3,177
+EP-04,TR-002,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Substation Block B,South Grid,1.38,15.2,26.8,27.4,206
+EP-05,TR-002,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Substation Block B,South Grid,1.2,16.5,27.5,28.5,235
+EP-06,TR-002,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Substation Block B,South Grid,1.37,17.8,28.2,23.6,264
+EP-07,TR-002,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Substation Block B,South Grid,1.19,19.1,28.9,24.7,293
+EP-08,TR-003,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Furnace Bay,Furnace & Utilities,1.36,20.4,29.6,25.8,322
+EP-09,TR-003,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Furnace Bay,Furnace & Utilities,1.18,21.7,30.3,26.9,351
+EP-10,TR-003,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Furnace Bay,Furnace & Utilities,1.35,23.0,31.0,28.0,380
+EP-11,TR-003,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Furnace Bay,Furnace & Utilities,1.17,24.3,31.7,23.1,409
+EP-12,TR-003,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Furnace Bay,Furnace & Utilities,1.34,25.6,24.4,24.2,438
+EP-13,TR-004,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Utility Block,Assembly & Packing,1.16,26.9,25.1,25.3,467
+EP-14,TR-004,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Utility Block,Assembly & Packing,1.33,10.2,25.8,26.4,496
+EP-15,TR-004,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Utility Block,Assembly & Packing,1.15,11.5,26.5,27.5,525
+EP-16,TR-005,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Compressor House,North-East Grid,1.32,12.8,27.2,28.6,554
+EP-17,TR-005,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Compressor House,North-East Grid,1.14,14.1,27.9,23.7,583
+EP-18,TR-005,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Compressor House,North-East Grid,1.31,15.4,28.6,24.8,612
+EP-19,TR-005,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Compressor House,North-East Grid,1.13,16.7,29.3,25.9,641
+EP-20,TR-006,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 1,South Grid,1.3,18.0,30.0,27.0,670
+EP-21,TR-006,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 1,South Grid,1.12,19.3,30.7,28.1,699
+EP-22,TR-006,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 1,South Grid,1.29,20.6,31.4,23.2,728
+EP-23,TR-006,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 1,South Grid,1.11,21.9,24.1,24.3,757
+EP-24,TR-006,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 1,South Grid,1.28,23.2,24.8,25.4,786
+EP-25,TR-007,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 2,Furnace & Utilities,1.1,24.5,25.5,26.5,115
+EP-26,TR-007,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 2,Furnace & Utilities,1.27,25.8,26.2,27.6,144
+EP-27,TR-007,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Assembly Line 2,Furnace & Utilities,1.09,27.1,26.9,28.7,173
+EP-28,TR-008,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Packing Unit,Assembly & Packing,1.26,10.4,27.6,23.8,202
+EP-29,TR-008,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Packing Unit,Assembly & Packing,1.08,11.7,28.3,24.9,231
+EP-30,TR-008,ES-C01,Apex Industrial Systems,Electrical Manufacturing,Packing Unit,Assembly & Packing,1.25,13.0,29.0,26.0,260
+EP-31,TR-008,ES-C02,Nova Process Industries,Automotive Components,Packing Unit,Assembly & Packing,1.07,14.3,29.7,27.1,289
+EP-32,TR-009,ES-C02,Nova Process Industries,Automotive Components,Boiler House,North-East Grid,1.24,15.6,30.4,28.2,318
+EP-33,TR-009,ES-C02,Nova Process Industries,Automotive Components,Boiler House,North-East Grid,1.06,16.9,31.1,23.3,347
+EP-34,TR-009,ES-C02,Nova Process Industries,Automotive Components,Boiler House,North-East Grid,1.23,18.2,31.8,24.4,376
+EP-35,TR-009,ES-C02,Nova Process Industries,Automotive Components,Boiler House,North-East Grid,1.05,19.5,24.5,25.5,405
+EP-36,TR-009,ES-C02,Nova Process Industries,Automotive Components,Boiler House,North-East Grid,1.22,20.8,25.2,26.6,434
+EP-37,TR-010,ES-C02,Nova Process Industries,Automotive Components,Water Treatment,South Grid,1.39,22.1,25.9,27.7,463
+EP-38,TR-010,ES-C02,Nova Process Industries,Automotive Components,Water Treatment,South Grid,1.21,23.4,26.6,28.8,492
+EP-39,TR-010,ES-C02,Nova Process Industries,Automotive Components,Water Treatment,South Grid,1.38,24.7,27.3,23.9,521
+EP-40,TR-011,ES-C02,Nova Process Industries,Automotive Components,Main Distribution Yard,Furnace & Utilities,1.2,26.0,28.0,25.0,550
+EP-41,TR-011,ES-C02,Nova Process Industries,Automotive Components,Main Distribution Yard,Furnace & Utilities,1.37,27.3,28.7,26.1,579
+EP-42,TR-011,ES-C02,Nova Process Industries,Automotive Components,Main Distribution Yard,Furnace & Utilities,1.19,10.6,29.4,27.2,608
+EP-43,TR-011,ES-C02,Nova Process Industries,Automotive Components,Main Distribution Yard,Furnace & Utilities,1.36,11.9,30.1,28.3,637
+EP-44,TR-012,ES-C02,Nova Process Industries,Automotive Components,Substation Block B,Assembly & Packing,1.18,13.2,30.8,23.4,666
+EP-45,TR-012,ES-C02,Nova Process Industries,Automotive Components,Substation Block B,Assembly & Packing,1.35,14.5,31.5,24.5,695
+EP-46,TR-012,ES-C02,Nova Process Industries,Automotive Components,Substation Block B,Assembly & Packing,1.17,15.8,24.2,25.6,724
+EP-47,TR-012,ES-C02,Nova Process Industries,Automotive Components,Substation Block B,Assembly & Packing,1.34,17.1,24.9,26.7,753
+EP-48,TR-012,ES-C02,Nova Process Industries,Automotive Components,Substation Block B,Assembly & Packing,1.16,18.4,25.6,27.8,782
+EP-49,TR-013,ES-C02,Nova Process Industries,Automotive Components,Furnace Bay,North-East Grid,1.33,19.7,26.3,28.9,111
+EP-50,TR-013,ES-C02,Nova Process Industries,Automotive Components,Furnace Bay,North-East Grid,1.15,21.0,27.0,24.0,140
+EP-51,TR-013,ES-C02,Nova Process Industries,Automotive Components,Furnace Bay,North-East Grid,1.32,22.3,27.7,25.1,169
+EP-52,TR-014,ES-C02,Nova Process Industries,Automotive Components,Utility Block,South Grid,1.14,23.6,28.4,26.2,198
+EP-53,TR-014,ES-C02,Nova Process Industries,Automotive Components,Utility Block,South Grid,1.31,24.9,29.1,27.3,227
+EP-54,TR-014,ES-C02,Nova Process Industries,Automotive Components,Utility Block,South Grid,1.13,26.2,29.8,28.4,256
+EP-55,TR-014,ES-C02,Nova Process Industries,Automotive Components,Utility Block,South Grid,1.3,27.5,30.5,23.5,285
+EP-56,TR-015,ES-C02,Nova Process Industries,Automotive Components,Compressor House,Furnace & Utilities,1.12,10.8,31.2,24.6,314
+EP-57,TR-015,ES-C02,Nova Process Industries,Automotive Components,Compressor House,Furnace & Utilities,1.29,12.1,31.9,25.7,343
+EP-58,TR-015,ES-C02,Nova Process Industries,Automotive Components,Compressor House,Furnace & Utilities,1.11,13.4,24.6,26.8,372
+EP-59,TR-015,ES-C02,Nova Process Industries,Automotive Components,Compressor House,Furnace & Utilities,1.28,14.7,25.3,27.9,401
+EP-60,TR-015,ES-C02,Nova Process Industries,Automotive Components,Compressor House,Furnace & Utilities,1.1,16.0,26.0,23.0,430
+EP-61,TR-016,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 1,Assembly & Packing,1.27,17.3,26.7,24.1,459
+EP-62,TR-016,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 1,Assembly & Packing,1.09,18.6,27.4,25.2,488
+EP-63,TR-016,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 1,Assembly & Packing,1.26,19.9,28.1,26.3,517
+EP-64,TR-017,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 2,North-East Grid,1.08,21.2,28.8,27.4,546
+EP-65,TR-017,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 2,North-East Grid,1.25,22.5,29.5,28.5,575
+EP-66,TR-017,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 2,North-East Grid,1.07,23.8,30.2,23.6,604
+EP-67,TR-017,ES-C02,Nova Process Industries,Automotive Components,Assembly Line 2,North-East Grid,1.24,25.1,30.9,24.7,633
+EP-68,TR-018,ES-C02,Nova Process Industries,Automotive Components,Packing Unit,South Grid,1.06,26.4,31.6,25.8,662
+EP-69,TR-018,ES-C02,Nova Process Industries,Automotive Components,Packing Unit,South Grid,1.23,27.7,24.3,26.9,691
+EP-70,TR-018,ES-C02,Nova Process Industries,Automotive Components,Packing Unit,South Grid,1.05,11.0,25.0,28.0,720
+EP-71,TR-018,ES-C03,Kaveri Engineering Works,Heavy Engineering,Packing Unit,South Grid,1.22,12.3,25.7,23.1,749
+EP-72,TR-018,ES-C03,Kaveri Engineering Works,Heavy Engineering,Packing Unit,South Grid,1.39,13.6,26.4,24.2,778
+EP-73,TR-019,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,Furnace & Utilities,1.21,14.9,27.1,25.3,107
+EP-74,TR-019,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,Furnace & Utilities,1.38,16.2,27.8,26.4,136
+EP-75,TR-019,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,Furnace & Utilities,1.2,17.5,28.5,27.5,165
+EP-76,TR-020,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,Assembly & Packing,1.37,18.8,29.2,28.6,194
+EP-77,TR-020,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,Assembly & Packing,1.19,20.1,29.9,23.7,223
+EP-78,TR-020,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,Assembly & Packing,1.36,21.4,30.6,24.8,252
+EP-79,TR-020,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,Assembly & Packing,1.18,22.7,31.3,25.9,281
+EP-80,TR-021,ES-C03,Kaveri Engineering Works,Heavy Engineering,Main Distribution Yard,North-East Grid,1.35,24.0,24.0,27.0,310
+EP-81,TR-021,ES-C03,Kaveri Engineering Works,Heavy Engineering,Main Distribution Yard,North-East Grid,1.17,25.3,24.7,28.1,339
+EP-82,TR-021,ES-C03,Kaveri Engineering Works,Heavy Engineering,Main Distribution Yard,North-East Grid,1.34,26.6,25.4,23.2,368
+EP-83,TR-021,ES-C03,Kaveri Engineering Works,Heavy Engineering,Main Distribution Yard,North-East Grid,1.16,27.9,26.1,24.3,397
+EP-84,TR-021,ES-C03,Kaveri Engineering Works,Heavy Engineering,Main Distribution Yard,North-East Grid,1.33,11.2,26.8,25.4,426
+EP-85,TR-022,ES-C03,Kaveri Engineering Works,Heavy Engineering,Substation Block B,South Grid,1.15,12.5,27.5,26.5,455
+EP-86,TR-022,ES-C03,Kaveri Engineering Works,Heavy Engineering,Substation Block B,South Grid,1.32,13.8,28.2,27.6,484
+EP-87,TR-022,ES-C03,Kaveri Engineering Works,Heavy Engineering,Substation Block B,South Grid,1.14,15.1,28.9,28.7,513
+EP-88,TR-023,ES-C03,Kaveri Engineering Works,Heavy Engineering,Furnace Bay,Furnace & Utilities,1.31,16.4,29.6,23.8,542
+EP-89,TR-023,ES-C03,Kaveri Engineering Works,Heavy Engineering,Furnace Bay,Furnace & Utilities,1.13,17.7,30.3,24.9,571
+EP-90,TR-023,ES-C03,Kaveri Engineering Works,Heavy Engineering,Furnace Bay,Furnace & Utilities,1.3,19.0,31.0,26.0,600
+EP-91,TR-023,ES-C03,Kaveri Engineering Works,Heavy Engineering,Furnace Bay,Furnace & Utilities,1.12,20.3,31.7,27.1,629
+EP-92,TR-024,ES-C03,Kaveri Engineering Works,Heavy Engineering,Utility Block,Assembly & Packing,1.29,21.6,24.4,28.2,658
+EP-93,TR-024,ES-C03,Kaveri Engineering Works,Heavy Engineering,Utility Block,Assembly & Packing,1.11,22.9,25.1,23.3,687
+EP-94,TR-024,ES-C03,Kaveri Engineering Works,Heavy Engineering,Utility Block,Assembly & Packing,1.28,24.2,25.8,24.4,716
+EP-95,TR-024,ES-C03,Kaveri Engineering Works,Heavy Engineering,Utility Block,Assembly & Packing,1.1,25.5,26.5,25.5,745
+EP-96,TR-024,ES-C03,Kaveri Engineering Works,Heavy Engineering,Utility Block,Assembly & Packing,1.27,26.8,27.2,26.6,774
+EP-97,TR-025,ES-C03,Kaveri Engineering Works,Heavy Engineering,Compressor House,North-East Grid,1.09,10.1,27.9,27.7,103
+EP-98,TR-025,ES-C03,Kaveri Engineering Works,Heavy Engineering,Compressor House,North-East Grid,1.26,11.4,28.6,28.8,132
+EP-99,TR-025,ES-C03,Kaveri Engineering Works,Heavy Engineering,Compressor House,North-East Grid,1.08,12.7,29.3,23.9,161
+EP-100,TR-026,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 1,South Grid,1.25,14.0,30.0,25.0,190
+EP-101,TR-026,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 1,South Grid,1.07,15.3,30.7,26.1,219
+EP-102,TR-026,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 1,South Grid,1.24,16.6,31.4,27.2,248
+EP-103,TR-026,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 1,South Grid,1.06,17.9,24.1,28.3,277
+EP-104,TR-027,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 2,Furnace & Utilities,1.23,19.2,24.8,23.4,306
+EP-105,TR-027,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 2,Furnace & Utilities,1.05,20.5,25.5,24.5,335
+EP-106,TR-027,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 2,Furnace & Utilities,1.22,21.8,26.2,25.6,364
+EP-107,TR-027,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 2,Furnace & Utilities,1.39,23.1,26.9,26.7,393
+EP-108,TR-027,ES-C03,Kaveri Engineering Works,Heavy Engineering,Assembly Line 2,Furnace & Utilities,1.21,24.4,27.6,27.8,422
+EP-109,TR-028,ES-C03,Kaveri Engineering Works,Heavy Engineering,Packing Unit,Assembly & Packing,1.38,25.7,28.3,28.9,451
+EP-110,TR-028,ES-C03,Kaveri Engineering Works,Heavy Engineering,Packing Unit,Assembly & Packing,1.2,27.0,29.0,24.0,480
+EP-111,TR-028,ES-C03,Kaveri Engineering Works,Heavy Engineering,Packing Unit,Assembly & Packing,1.37,10.3,29.7,25.1,509
+EP-112,TR-029,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,North-East Grid,1.19,11.6,30.4,26.2,538
+EP-113,TR-029,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,North-East Grid,1.36,12.9,31.1,27.3,567
+EP-114,TR-029,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,North-East Grid,1.18,14.2,31.8,28.4,596
+EP-115,TR-029,ES-C03,Kaveri Engineering Works,Heavy Engineering,Boiler House,North-East Grid,1.35,15.5,24.5,23.5,625
+EP-116,TR-030,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,South Grid,1.17,16.8,25.2,24.6,654
+EP-117,TR-030,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,South Grid,1.34,18.1,25.9,25.7,683
+EP-118,TR-030,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,South Grid,1.16,19.4,26.6,26.8,712
+EP-119,TR-030,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,South Grid,1.33,20.7,27.3,27.9,741
+EP-120,TR-030,ES-C03,Kaveri Engineering Works,Heavy Engineering,Water Treatment,South Grid,1.15,22.0,28.0,23.0,770
