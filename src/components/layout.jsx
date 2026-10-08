@@ -99,24 +99,7 @@ export function Login() {
             Login
           </button>
 
-          <div className="demo">
-            <span>
-              Platform accounts · password <b>{PASS}</b>
-            </span>
 
-            {DEMO_ACCOUNTS.map(([accountEmail, label]) => (
-              <button
-                key={accountEmail}
-                type="button"
-                onClick={() => {
-                  setEmail(accountEmail);
-                  setPassword(PASS);
-                }}
-              >
-                {label}
-              </button>
-            ))}
-          </div>
         </form>
       </div>
     </section>
