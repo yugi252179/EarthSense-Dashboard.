@@ -207,8 +207,10 @@ export async function loadLiveState(config = DEFAULTS) {
 
   let isConnected = Boolean(liveValue);
   if (liveValue && liveValue.timestamp) {
-    const dataTime = new Date(liveValue.timestamp).getTime();
-    if (Date.now() - dataTime > 60000) {
+    // Replace space with 'T' to ensure valid ISO 8601 parsing in all browsers (e.g., Safari)
+    const validIsoString = String(liveValue.timestamp).replace(" ", "T");
+    const dataTime = new Date(validIsoString).getTime();
+    if (Date.now() - dataTime > 30000) {
       isConnected = false;
     }
   }
