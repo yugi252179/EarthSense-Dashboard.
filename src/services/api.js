@@ -41,9 +41,9 @@ async function getJson(url) {
 
     return await response.json();
   } catch (err) {
-    if (url.includes("EP-01")) {
+    if (finalUrl.includes("EP-01")) {
       console.warn("API failed, falling back to dummy data for EP-01", err);
-      if (url.includes("data")) {
+      if (finalUrl.includes("data")) {
         return {
           latest_sensor_reading: MOCK_API_RESPONSE.latest_sensor_reading,
         };
